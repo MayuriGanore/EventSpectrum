@@ -1,0 +1,86 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px;
+  background-color: rgb(236, 28, 17);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-toggler{
+    color: #fff;
+}
+form[role="search"] {
+    margin-left:250px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    height: 50px;
+    width: 800px;
+  }
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 20px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.signup-button {
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-button {
+  margin-right: 10px;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.login-button:hover,
+.signup-button:hover,
+.login-button:focus,
+.signup-button:focus {
+  background-color: #0056b3;
+  outline: none;
+}
+.text {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+.text1 {
+  font-size: 20px;
+  font-family: cursive;
+  font-style: italic;
+  margin-right: 10px;
+}
+.navbar navbar-expand-lg bg-body-tertiary {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn btn-outline-success {
+  margin-right: 200px;
+}
